@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/mobile.js"></script>
+    <link rel="stylesheet" href="./css/resetfile.css">
+    <link rel="stylesheet" href="./fontw/css/all.min.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1,maximum-scale=1">
+    <title>메인페이지</title>
+  </head>
+  <body>
+    <div class="all">
+      <button class="gototop">
+        <!-- <i class="fa-solid fa-caret-up"></i> -->
+        <i class="fa-solid fa-circle-chevron-up"></i>
+      </button>
+      <header>
+        <div class="innerheader">
+          <div class="top">
+            <a class="menubars" href="#"><i class="fa-solid fa-bars"></i></a>
+            <h1 class="logo"><a href="./index.html"><img src="./img/bose1.png" alt=""></a></h1>
+            <input type="text" name="" value="" placeholder="Search..">
+            <a class="search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <ul class="topMenu">
+              <li><a href="#">회원가입</a></li>
+              <li><a href="#">마이보스</a></li>
+              <li><a href="#">스토어</a></li>
+              <li><a href="#">고객센터</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="innerheaderDown">
+          <ul class="gnb">
+            <li><a href="./headphone.html" target="_blank">헤드폰</a>
+              <ul>
+                <li><a href="#">Noise Canceling</a></li>
+                <li><a href="#">Gaming Headset</a></li>
+                <li><a href="#">Audio Sunglasses</a></li>
+                <li><a href="#">Accessories</a></li>
+              </ul>
+            </li>
+            <li><a href="./earbuds.html" target="_blank">이어버드</a>
+              <ul>
+                <li><a href="#">Earbuds</a></li>
+                <li><a href="#">Openear</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Sleepbuds</a></li>
+                <li><a href="#">Accessories</a></li>
+              </ul>
+            </li>
+            <li><a href="./speker.html">스피커</a>
+              <ul>
+                <li><a href="#">Portable Bluetooth</a></li>
+                <li><a href="#">soundbar</a></li>
+                <li><a href="#">Smart Home</a></li>
+                <li><a href="#">Wave Systems</a></li>
+                <li><a href="#">Home Theater</a></li>
+                <li><a href="#">Computer</a></li>
+                <li><a href="#">Accessories</a></li>
+              </ul>
+            </li>
+            <li><a href="./refer.html">리퍼상품</a>
+              <ul>
+                <li><a href="#">리퍼상품</a></li>
+              </ul>
+            </li>
+            <li><a href="./sale.html">특판문의</a>
+              <ul>
+                <li><a href="#">특판문의</a></li>
+              </ul>
+            </li>
+            <li><a href="#">고객센터</a></li>
+            <li><a href="#">스토어</a></li>
+          </ul>
+        </div>
+      </header>
+      <div class="bannerTop">
+        <div class="bannerStation swiper">
+          <ul class="bannerTrain swiper-wrapper">
+            <li class="intro swiper-slide">
+              <!-- <div class="intro swiper-slide"> -->
+                <video class="bosevideo" autoplay muted loop>
+                  <source src="./video/bosevideo.mp4" type="video/mp4">
+                </video>
+                <section class="collab">
+                  <img src="./img/bose1.png" alt="bose logo png">
+                  <p>X</p>
+                  <h1>Charlie Puth</h1>
+                </section>
+              <!-- </div> -->
+            </li>
+            <li class="mainbanner2qc swiper-slide">
+              <a href="#">
+                <img src="./img/camera.jpg" alt="카메라여자">
+                <div class="bannerText">
+                  <h1>Sound for Magic</h1>
+                  <h3>Quiet Comfort® 45</h3>
+                  <p>Noise Canceling Headphones</p>
+                </div>
+              </a>
+            </li>
+            <li class="mainbanner2frame swiper-slide">
+              <a href="#">
+                <img src="./img/soprno.png" alt="">
+                <h2>DESIGNED FOR SPORTS</h2>
+                <h1>DESIGNED BY BOSE</h1>
+              </a>
+            </li>
+            <li class="blackfriday swiper-slide">
+              <a href="#">
+                <img src="./img/qcear2.png" alt="qc earbuds2 black">
+                <div class="qcTxt">
+                  <h1>BOSE Black Friday deals are <br>COMING SOON</h1>
+                  <p>SAVE UP TO 50%</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <ul class="bannerDot swiper-pagination" id="bannerDotid">
+            <!-- <li class="bannerDoton">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li> -->
+          </ul>
+          <div class="mainbannerarrow">
+            <div class="swiper-button-prev mainbtnprev" id="mainprev"></div>
+            <div class="swiper-button-next mainbtnnext" id="mainnext"></div>
+          </div>
+        </div>
+        <div class="qcbanner">
+          <img src="./img/qce-black.png" alt="BOSE QC earbuds 2">
+          <p class="the"><span>T</span>H<span>E</span></p>
+          <p class="new">N<span>E</span>W</p>
+          <div class="qcmobileTXT">
+            <h2>BOSE QC EarbudsⅡ</h2>
+            <p><a href="./earbuds.html">자세히 보기 </a></p>
+          </div>
+        </div>
+      </div>
+      <div class="contents">
+        <div class="innerContents">
+          <div class="online">
+            <section class="video">
+              <iframe width="800" height="500" src="https://www.youtube.com/embed/zw58jzmHbws" title="Bose QuietComfort® Earbuds II" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section class="shop">
+              <h2>왜? <br>BOSE 온라인에서<br>구매해야 할까요?</h2>
+              <div class="check1">
+                <p>정품 A/S 1년보증</p>
+                <p><a href="#">정품안내 확인하기 &gt;</a></p>
+              </div>
+              <div class="check2">
+                <p>적립금 3% 적립</p>
+                <p><a href="#">적립금 확인하기 &gt;</a></p>
+              </div>
+            </section>
+          </div>
+          <dl class="tab">
+            <dt class="on">신제품</dt>
+            <dd class="on station">
+              <ul class="train">
+                <li><a href="#"><img src="./img/qcear.png" alt="QC earbuds2"><h3>Quiet Comfort Earbuds </h3><p>359,000원</p></a></li>
+                <li><a href="#"><img src="./img/qc45black.png" alt="QC45headphones"><h3>Quiet Comfort 45 Headphones</h3><p>389,000원</p></a></li>
+                <li><a href="#"><img src="./img/mini.png" alt="soundlink"><h3>SoundLink Micro Speaker</h3><p>139,000원</p></a></li>
+                <li><a href="#"><img src="./img/sounsports.png" alt="soundsports"><h3>Sound Sport Earbuds</h3><p>239,000원</p></a></li>
+                <li><a href="#"><img src="./img/flexblack.png" alt="soundlinkflex"><h3>SoundLink Flex Bluetooth Speaker</h3><p>179,000원</p></a></li>
+              </ul>
+              <div class="controler controler1">
+                <ul>
+                  <li class="btnPrev1"><i class="fa-solid fa-chevron-left"></i></li>
+                  <li class="btnNext1"><i class="fa-solid fa-chevron-right"></i></li>
+                </ul>
+              </div>
+            </dd>
+            <dt>베스트 상품</dt>
+            <dd>
+              <ul class="train2">
+                <li><a href="#"><img src="./img/flexblack.png" alt="soundlinkflex"><h3>SoundLink Flex Bluetooth Speaker</h3><p>179,000원</p></a></li>
+                <li><a href="#"><img src="./img/qcear.png" alt="QC earbuds2"><h3>Quiet Comfort Earbuds Ⅱ</h3><p>359,000원</p></a></li>
+                <li><a href="#"><img src="./img/qc45white.png" alt="QC45headphones"><h3>Quiet Comfort 45 Headphones</h3><p>389,000원</p></a></li>
+                <li><a href="#"><img src="./img/sounsports.png" alt="soundsports"><h3>Sound Sport Earbuds</h3><p>239,000원</p></a></li>
+                <li><a href="#"><img src="./img/soundbar600.png" alt="soundbar900"><h3>Smart Soundbar 900</h3><p>1,199,000원</p></a></li>
+              </ul>
+              <div class="controler controler2">
+                <ul>
+                  <li class="btnPrev2"><i class="fa-solid fa-chevron-left"></i></li>
+                  <li class="btnNext2"><i class="fa-solid fa-chevron-right"></i></li>
+                </ul>
+              </div>
+            </dd>
+          </dl>
+          <div class="prod">
+            <h3>신제품</h3>
+            <div class="mainstation">
+              <ul class="maintrain maintrain1">
+                <li class="a1"><a href="#"><img src="./img/qcear.png" alt="QC earbuds2"><span><img class="none" src="./img/qc1b.png"></span><h3>Quiet Comfort Earbuds</h3><p>359,000원</p></a></li>
+                <li class="a2"><a href="#"><img src="./img/qc35.png" alt="QC45headphones"><span><img class="none" src="./img/qc45white.png"></span><h3>Quiet Comfort 45 Headphones</h3><p>389,000원</p></a></li>
+                <li><a href="#"><img src="./img/mini.png" alt="soundlink"><h3>SoundLink Micro Speaker</h3><p>139,000원</p></a></li>
+                <li class="a3"><a href="#"><img src="./img/sounsports.png" alt="soundsports"><span><img class="none" src="./img/sportsb.png"></span><h3>Sound Sport Earbuds</h3><p>239,000원</p></a></li>
+                <li class="a4"><a href="#"><img src="./img/flexblack.png" alt="soundlinkflex"><span><img class="none" src="./img/flexwhite.png"></span><h3>SoundLink Flex Bluetooth Speaker</h3><p>179,000원</p></a></li>
+              </ul>
+              <ul class="control">
+                <li class="btnPrev1"><i class="fa-solid fa-chevron-left"></i></li>
+                <li class="btnNext1"><i class="fa-solid fa-chevron-right"></i></li>
+              </ul>
+              <div class="navi">
+                <div class="navibar navibar1"></div>
+              </div>
+            </div>
+          </div>
+          <div class="prod">
+            <h3>베스트 상품</h3>
+            <div class="mainstation">
+              <ul class="maintrain maintrain2">
+                <li><a href="#"><img src="./img/flexblack.png" alt="soundlinkflex"><h3>SoundLink Flex Bluetooth Speaker</h3><p>179,000원</p></a></li>
+                <li><a href="#"><img src="./img/qcear.png" alt="QC earbuds2"><h3>Quiet Comfort Earbuds Ⅱ</h3><p>359,000원</p></a></li>
+                <li><a href="#"><img src="./img/qc45white.png" alt="QC45headphones"><h3>Quiet Comfort 45 Headphones</h3><p>389,000원</p></a></li>
+                <li><a href="#"><img src="./img/sounsports.png" alt="soundsports"><h3>Sound Sport Earbuds</h3><p>239,000원</p></a></li>
+                <li><a href="#"><img src="./img/soundbar600.png" alt="soundbar900"><h3>Smart Soundbar 900</h3><p>1,199,000원</p></a></li>
+              </ul>
+              <ul class="control">
+                <li class="btnPrev2"><i class="fa-solid fa-chevron-left"></i></li>
+                <li class="btnNext2"><i class="fa-solid fa-chevron-right"></i></li>
+              </ul>
+              <div class="navi">
+                <div class="navibar navibar2"></div>
+              </div>
+            </div>
+            <!-- </div> -->
+          </div>
+        </div>
+        <!-- 가로사이즈 지정필요 -->
+
+      </div>
+      <div class="bannerDown">
+        <div class="refer">
+          <figure>
+            <img src="./img/qc45white.png" alt="QC45headphonesWhite">
+            <img src="./img/flexred.png" alt="red">
+            <img src="./img/flexwhite.png" alt="white">
+            <img src="./img/flexblack.png" alt="soundlinkflexREFER">
+            <img src="./img/flexblue.png" alt="blue">
+          </figure>
+          <div class="referTxt">
+            <h6>멀어지는 탄소 발자국, 가까워지는 탄소중립</h6>
+            <h2>리퍼브 제품</h2>
+            <p><a href="./refer.html">자세히 보기 &gt;</a></p>
+          </div>
+        </div>
+        <div class="soundlinkBanner">
+          <figure>
+            <img src="./img/soundlinkbeach.jpeg" alt="soundlinkmini">
+          </figure>
+          <section class="soundlinkTxt">
+            <h2>언제나<br>어디서나<br>항상</h2>
+            <h5>soundlink Revolve+</h5>
+            <p><a href="./speaker.html">자세히 보기 &gt;</a></p>
+          </section>
+        </div>
+        <div class="soundlinkBannerMo">
+          <figure>
+            <img src="./img/miniorange.jpeg" alt="soundlinkmini">
+          </figure>
+          <section class="soundlinkTxt">
+            <h2>언제나,어디서나,항상</h2>
+            <h5>soundlink Revolve+</h5>
+            <p><a href="#">자세히 보기 &gt;</a></p>
+          </section>
+        </div>
+      </div>
+      <footer>
+        <div class="footTop">
+          <div class="innerfootTop">
+            <a href="https://www.youtube.com/user/Bose"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/bose/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/bose"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="footDown">
+          <div class="innerfootDown">
+            <div class="footleft">
+              <img src="./img/bose.jpg" alt="BOSE logo">
+            </div>
+            <div class="footTxt">
+              <p>코오롱글로벌(주) BOSE 공식파트너 | 대표자명 : 김정일</p>
+              <address>주소 : 서울시 강남구 영동대로 301 | 연락처: 02-2038-7986</address>
+              <p>사업자등록번호 : 597-85-01330 | 통신판매업신고번호 : 2019-서울강남-05562</p>
+              <p>개인정보관리책임자 : 박상훈</p>
+              <p><a href="#">이용약관  |  개인정보처리방침  |  </a>Hosting by (주)아임웹</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
