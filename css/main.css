@@ -47,7 +47,7 @@
   .logo{
     width: 200px;
     height: 70px;
-    background: black;
+    background: #fae14a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,8 +98,8 @@
   .innerheaderDown::after{
     content: "";
     width: 100%;
-    height: 280px;
-    background: #191919;
+    height: 240px;
+    background: #ffe0e6;
     z-index: 10;
     position: absolute;
     left: 0;
@@ -167,7 +167,7 @@
   .gnb>li>ul>li{
     padding: 8px 15px;
     transition: all 0.3s ease 0s;
-    color: #cccccc
+    color: #fff
   }
   .gnb>li>ul>li>a{
     display: block;
@@ -265,7 +265,7 @@
     font-size: 90px;
     font-weight: bold;
   }
-  .mainbanner2qc)>a>.bannerText>h3{
+  .mainbanner2qc>a>.bannerText>h3{
     font-size: 60px;
     font-weight: 600;
   }
@@ -1748,7 +1748,7 @@
   }
   .footTop{
     height: 43px;
-    background: #191919;
+    background: #FFB6C1;
   }
   .innerfootTop{
     background: #191919;
@@ -1771,7 +1771,7 @@
     padding: 30px 0;
   }
   .innerfootDown{
-    background: black;
+    background: #fae14a;
     width: 1350px;
     height: 200px;
     margin: 0 auto;
